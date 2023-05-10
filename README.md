@@ -3,7 +3,7 @@ Generates a threat feed IP list from a user-furnished ASN list.  The output can 
 
 ## Prerequisites
 1. IP2Location Lite database subscription (sign up at https://lite.ip2location.com/ip2location-lite)
-2. A list of one or more ASNs you wish to have converted to an IP list
+2. A list of one or more ASNs you wish to have converted to an IP list.  I highly recommend ASNLookup https://asnlookup.com to find an associated AS number for observed suspect or malicious activity.
 
 ## Running
 ### Input files

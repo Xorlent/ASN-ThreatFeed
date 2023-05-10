@@ -19,7 +19,7 @@ Generates a threat feed IP list from a user-furnished ASN list.  The output can 
    - updateasn.ps1 : Regenerates the BlockASNs.txt list using the pre-existing copy of the ASN IP database.  
 
 ### Output
-   - BlockedASNs.txt (PowerShell version will automatically move the output file to the web folder for pickup)
+   - BlockedASNs.txt (PowerShell version will automatically move the output file to a specified web folder for pickup)
 
 ## Required Attribution
    Wherever you end up using or posting the resulting data, be certain to follow IP2Location Lite's attribution requirements:  https://lite.ip2location.com/database/db1-ip-country

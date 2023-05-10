@@ -11,11 +11,11 @@ Generates a threat feed IP list from a user-furnished ASN list.  The output can 
    - IPBlockExceptions.exe : Specific ASN IP ranges to never block (MUST exactly match an entry in the ASN database), one CIDR per line.  
 
 ### For Linux/Bash
-   - buildasn.sh : Downloads a fresh copy of the ASN IP database and rebuilds the BlockASNs.txt list.  
+   - buildasn.sh : Downloads a fresh copy of the ASN IP database and rebuilds the BlockASNs.txt list. This should only be run once per month, as the IP2Location Lite database is released monthly on/around the 1st of each month.  
    - updateasn.sh : Regenerates the BlockASNs.txt list using the pre-existing copy of the ASN IP database.  
 
 ### For Windows/PowerShell
-   - buildasn.ps1 : Downloads a fresh copy of the ASN IP database and rebuilds the BlockASNs.txt list.  
+   - buildasn.ps1 : Downloads a fresh copy of the ASN IP database and rebuilds the BlockASNs.txt list. This should only be run once per month, as the IP2Location Lite database is released monthly on/around the 1st of each month.  
    - updateasn.ps1 : Regenerates the BlockASNs.txt list using the pre-existing copy of the ASN IP database.  
 
 ### Output

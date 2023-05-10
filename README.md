@@ -2,7 +2,7 @@
 Generates a threat feed IP list from a user-furnished ASN list.  The output can then be consumed by firewalls and filtering tools.
 
 ## Input files
-   ASN.txt = list of AS numbers in format ASn[nnnnn] to add to the block list, exactly one per line, comment with a "#" followed by text  
+   ASN.txt = list of AS numbers in format ASn[n..] to add to the block list, exactly one per line, comment with a "#" followed by text  
    IPBlockExceptions.exe = specific ASN IP ranges to never block (MUST exactly match an entry in the ASN DB), one CIDR per line  
 
 ## For Linux/Bash

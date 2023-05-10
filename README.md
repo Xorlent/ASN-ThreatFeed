@@ -1,5 +1,5 @@
 # ASN Threat Feeds
-Generates a threat feed IP list from a user-furnished ASN list.  The output can then be consumed by firewalls and filtering tools.
+Generates a threat feed IP list from a user-furnished ASN list.  The output can then be consumed by firewalls and filtering tools.  Inspired by https://github.com/X4BNet/lists_vpn, but adapted to use a different source database due to deficiencies I discovered.
 
 ## Prerequisites
 1. IP2Location Lite database subscription (sign up at https://lite.ip2location.com/ip2location-lite)

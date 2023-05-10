@@ -17,7 +17,7 @@ $ProdASNFile = "D:\Block_List\blockedASNs.txt"
 
 # Cleanup any prior downloads of the ASN database
 rm $ASNDBZip
-$DBRequest = "https://www.ip2location.com/download/?token=" + $IP2LocationToken + "&file=DBASNLITE"
+$DBRequest = 'https://www.ip2location.com/download/?token=' + $IP2LocationToken + '&file=DBASNLITE'
 
 # Get the latest IP2Location database (released monthly around the 1st)
 curl $DBRequest -o $ASNDBZip

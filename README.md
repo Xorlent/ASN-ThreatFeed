@@ -1,4 +1,4 @@
-# ASN Threat Feeds
+# ASN Threat Feed
 Generates a threat feed IP list from a user-furnished ASN list.  The output can then be consumed by firewalls and filtering tools.  Inspired by https://github.com/X4BNet/lists_vpn, but written to use a different source database due to deficiencies I discovered with the iptoasn data.
 
 ## Prerequisites

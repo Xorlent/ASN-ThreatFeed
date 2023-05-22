@@ -2,7 +2,7 @@
 Generates a threat feed IP list from a user-furnished Autonomous System Number(ASN) list.  The output can then be consumed by firewalls and filtering tools.  Inspired by https://github.com/X4BNet/lists_vpn, but written to use a different source database due to deficiencies discovered with the iptoasn data.  When malicious traffic is observed from a datacenter or undesired source/location, blocking inbound traffic from an entire ASN can help reduce alert fatigue and bolster defences.
 
 ## Prerequisites
-1. IP2Location Lite database subscription (sign up at https://lite.ip2location.com/ip2location-lite)
+1. IP2Location Lite database subscription (sign up at https://lite.ip2location.com/ip2location-lite).
 2. A list of one or more ASNs you wish to have converted to an IP list.  I highly recommend ASNLookup https://asnlookup.com to find an associated AS number for observed suspect or malicious activity.
 
 ## Running

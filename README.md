@@ -8,7 +8,7 @@ Generates a threat feed IP list from a user-furnished Autonomous System Number(A
 ## Running
 ### Input files
    - ASN.txt : list of AS numbers in format ASn[n..] to add to the block list, one entry per line, comments permitted with a "#" followed by text.  See the repo ASN.txt file for examples.  
-   - IPBlockExceptions.exe : Specific ASN IP ranges to never block (MUST exactly match an entry in the ASN database), one CIDR per line.  
+   - IPBlockExceptions.txt : Specific ASN IP ranges to never block (MUST exactly match an entry in the ASN database), one CIDR per line.  
 
 ### For Linux/Bash
    - buildasn.sh : Downloads a fresh copy of the ASN IP database and rebuilds the BlockASNs.txt list. This should only be run once per month, as the IP2Location Lite database is released monthly on/around the 1st of each month.  
